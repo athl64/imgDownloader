@@ -4,7 +4,7 @@
 
 Usage:
 
-    Put file named 'files.txt' into folder with main script 'downloader.php',
+    Put file named 'files.list' into folder with main script 'downloader.php',
     from command line (Bash/CMD) type '~: php downloader.php'.
 OR
 
