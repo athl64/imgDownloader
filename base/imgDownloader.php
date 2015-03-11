@@ -21,8 +21,8 @@ class imgDownloader
     * constructor
     * @fIn - string, path to file with list of files
     */
-	public function __construct($fIn = null)
-	{
+    public function __construct($fIn = null)
+    {
         echo "-- imgDownloader started. --\n";
 
         if($fIn !== null) {
@@ -34,7 +34,7 @@ class imgDownloader
             echo "\nList of files doesn't provided!\n";
             exit(1);
         }
-	}
+    }
 
     /**
     * destructor
