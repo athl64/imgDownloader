@@ -1,6 +1,6 @@
-ImgDownloader
+#ImgDownloader
 
-Class to download files by HTTP/FTP (without any password-protections) from remote server to local directory.
+*Class to download files by HTTP/FTP (without any password-protections) from remote server to local directory.*
 
 Usage:
     Put file named 'files.txt' into folder with main script 'downloader.php',
@@ -34,14 +34,14 @@ Project content:
     |    +-imgDownloaderException.php
     |  +-downloader.php
 
---------------For demonstration purposes-------------
+**For demonstration purposes**
 
 Project contains file 'files.list' with few file pathes on my server:
-    'files.list' contains 4 pathes:
-        1. http://dvixi.in.ua/tstImages/pic1.jpg - exists on server
-        2. http://dvixi.in.ua/tstImages/pic2.png - exists on server
-        3. http://dvixi.in.ua/tstImages/pic3.xcf - exists on server
-        4. http://dvixi.in.ua/tstImages/pic4.jpg - doesn't exist
+    File 'files.list' contains 4 pathes:
+        - http://dvixi.in.ua/tstImages/pic1.jpg - exists on server
+        - http://dvixi.in.ua/tstImages/pic2.png - exists on server
+        - http://dvixi.in.ua/tstImages/pic3.xcf - exists on server
+        - http://dvixi.in.ua/tstImages/pic4.jpg - doesn't exist
 
     There are 3 files in 'http:/dvixi.in.ua/tstImages/' folder:
         1. pic1.jpg
