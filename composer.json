@@ -1,0 +1,13 @@
+{
+    "name": "dvixi/img-downloader",
+    "description": "Class to download files by HTTP/FTP (without any password-protections) from remote server to local directory.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dvixi",
+            "email": "contact@dvixi.in.ua"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
